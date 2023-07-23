@@ -1,0 +1,5 @@
+<mod name="HoloUI Down Indicator Fix" author="NAHFE" priority="-2">
+	<Hooks directory="Hooks">
+		<hook source_file="lib/managers/hudmanager" file="hudmanager.lua" />
+	</Hooks>
+</mod>

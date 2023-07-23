@@ -1,0 +1,7 @@
+{
+	"blt_version" : 2,
+	"name" : "HoloUI Down Indicator Fix",
+	"description" : "Fixes the broken down indicators in HoloUI",
+	"author" : "NAHFE",
+	"version" : "1"
+}
