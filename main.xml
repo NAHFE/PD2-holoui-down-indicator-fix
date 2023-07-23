@@ -1,4 +1,8 @@
 <mod name="HoloUI Down Indicator Fix" author="NAHFE" priority="-2">
+	<AssetUpdates id="43224" version="1" provider="modworkshop" use_local_dir="true" use_local_path="true"/>
+	<Dependencies>
+		<Dependecy name="HoloUI" type="blt" id="12501" provider="modworkshop"/>
+	</Dependencies>
 	<Hooks directory="Hooks">
 		<hook source_file="lib/managers/hudmanager" file="hudmanager.lua" />
 	</Hooks>
