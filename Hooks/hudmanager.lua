@@ -51,7 +51,7 @@ if Holo:ShouldModify("HUD", "Teammate") then
 			end
 		end)
 	else
-		Hooks:PostHook(HUDManager, "align_teammate_panels", "NAHFEsMemesAlignPanels", function(self)
+		Hooks:PostHook(HUDManager, "align_teammate_panels", "HoloUIDownIndicatorFixAlignPanels", function(self)
 			local function align(tm)
 				local revive_panel = tm._player_panel:child("revive_panel")
 				local name_bg = tm._panel:child("Namebg")
